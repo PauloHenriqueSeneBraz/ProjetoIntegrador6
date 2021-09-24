@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".view.Admin">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="306dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#52190404"
+        android:text="L. R. P "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="311dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="256dp"
+        android:backgroundTint="@color/black"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/eSenhaADM"
+        android:layout_width="211dp"
+        android:layout_height="41dp"
+        android:background="#00000000"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Esqueceu a senha??"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias="0.108" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

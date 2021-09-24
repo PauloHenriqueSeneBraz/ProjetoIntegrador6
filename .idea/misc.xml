@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/activity_adm.xml" value="0.1" />
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/activity_admin.xml" value="0.152" />
         <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/activity_produtos.xml" value="0.259375" />
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/activity_registro.xml" value="0.152" />
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/activity_usuario.xml" value="0.176" />
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/content_main.xml" value="0.259375" />
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/content_scrolling.xml" value="0.259375" />
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/layout/payment.xml" value="0.1" />
+        <entry key="..\:/Users/Eu/AndroidStudioProjects/ProjetoIntegrador6/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2755208333333333" />
       </map>
     </option>
   </component>
@@ -12,5 +21,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.152" />
+      </ProjectState>
+    </option>
   </component>
 </project>

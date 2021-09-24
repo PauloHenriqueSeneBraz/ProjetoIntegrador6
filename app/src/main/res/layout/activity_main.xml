@@ -4,4 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:background="@color/purple_200"
+    tools:context=".view.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="306dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="#52190404"
+        android:text="@string/deseja_entrar_como"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="292dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/usuario"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/adm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/adm"
+        android:layout_width="292dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/administrador"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user" />
+</androidx.constraintlayout.widget.ConstraintLayout>
